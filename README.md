@@ -9,21 +9,15 @@ a simple XML generator demo
 3）节点有添加或者读取XML属性的操作；
 
 4）当前节点有方法能打印当前节点和所有子节点（包括子孙节点）的内容；
-
 5）可以设置XML的encoding方式。
 
 它可以生成类似这样的XML文档：
 
 <?xml version="1.0" encoding="UTF-8"?>
-
-  <CategoryList> -<Category ID="01"> 
-  
-    <MainCategory>XML</MainCategory> 
-    
-    <Description>This is a list my XML articles.</Description> 
-    
-    <Active>true</Active> 
-    
-  </Category> 
-  
+<CategoryList> 
+    <Category ID="01"> 
+      <MainCategory>XML</MainCategory> 
+      <Description>This is a list my XML articles.</Description> 
+      <Active>true</Active> 
+    </Category> 
 </CategoryList>
